@@ -9,7 +9,7 @@ ubrr test challenge
 - Установить docker, docker-compose, git
 - Клонировать репозиторий
 ```
-git clone [https://github.com/bblackcblackc/ubrrtest.git](https://github.com/bblackcblackc/ubrrtest.git)
+git clone https://github.com/bblackcblackc/ubrrtest.git
 ``` 
 - Скопировать файл initdb.sql из корня проекта в data/db
 - Запустить контейнер с БД 
