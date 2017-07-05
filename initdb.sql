@@ -4,6 +4,9 @@
 -- ------------------------------------------------------
 -- Server version	10.2.6-MariaDB-10.2.6+maria~jessie
 
+CREATE DATABASE bnk DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+USE bnk;
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
