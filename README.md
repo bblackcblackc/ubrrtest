@@ -1,5 +1,10 @@
 # ubrrtest
 ubrr test challenge
 
-Для установки понадобится docker
+# Установка
 
+Для установки понадобится docker, git
+
+1. Установить docker, git
+2. Клонировать репозиторий (git clone https://github.com/bblackcblackc/ubrrtest.git)
+3. 
