@@ -10,7 +10,7 @@ ubrr test challenge
 ```
 git clone https://github.com/bblackcblackc/ubrrtest.git
 ``` 
-- Скопировать файл *initdb.sql* из корня проекта в data/db
+- Скопировать файл **initdb.sql** из корня проекта в data/db
 - Запустить контейнер с БД 
 ```
 docker-compose up mariadb
