@@ -19,7 +19,8 @@ docker-compose up mariadb
 - Запустить в контейнере импорт из sql скрипта 
 ```
 docker-compose exec mariadb bash
-mysql -u root -p _ПАРОЛЬ-БД_
+cd /var/lib/mysql
+mysql -u root -p _ПАРОЛЬ-БД_ < initdb.sql
 ```
 - Запустить остальные контейнеры
 ```
