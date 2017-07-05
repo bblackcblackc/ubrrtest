@@ -16,12 +16,12 @@ git clone https://github.com/bblackcblackc/ubrrtest.git
 docker-compose up mariadb
 ```
 - Подождать инициализации БД
-- Запустить в контейнере импорт из sql скрипта 
+- Запустить в контейнере импорт из следующего sql скрипта. ПАРОЛЬ-БД -- root пароль от базы данных, можно найти в файле конфигурации docker-compose.yml
 ```
 docker-compose exec mariadb bash
 cd /var/lib/mysql
 mysql -u root -p
-Enter password: ПАРОЛЬ_БД
+Enter password: ПАРОЛЬ-БД
 MariaDB [none]> source ./initdb.sql
 ```
 - Остановить контейнер mariadb и запустить все контейнеры
