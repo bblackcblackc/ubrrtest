@@ -24,8 +24,9 @@ mysql -u root -p
 Enter password: ПАРОЛЬ_БД
 MariaDB [none]> source ./initdb.sql
 ```
-- Запустить остальные контейнеры
+- Остановить контейнер mariadb и запустить все контейнеры
 ```
+docker-compose down
 docker-compose up
 ```
 - Возможно, для некоторых систем, резолвер которых не сконфигурирован для поддержки поддоменов localhost как собственно localhost (т.е. для поддержки имен вида api0.localhost, api1.localhost, и т.д.), придется внести изменения в файл /etc/hosts, добавить следующие строки
