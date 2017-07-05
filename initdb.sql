@@ -35,7 +35,7 @@ CREATE TABLE `input_queries` (
   `processing_worker` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`,`advert_id`),
   KEY `worker` (`processing_worker`)
-) ENGINE=InnoDB AUTO_INCREMENT=277 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

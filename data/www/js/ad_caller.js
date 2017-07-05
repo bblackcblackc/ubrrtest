@@ -6,7 +6,7 @@ var servers = [
 	    'api5'
 	    ];
 
-var URLSuffix = '.bnk.alfavitt.com:8080/api/ad_caller.php';
+var URLSuffix = 'localhost:8080/api/ad_caller.php';
 var URLPrefix = 'http://';
 
 ////////////////////////////////////////////////////////////////
@@ -23,7 +23,7 @@ function advertCall(id,data) {
     var serverNum = getRndInt(1,servers.length);
     var selectedServer = 'api' + serverNum;
     
-    var url = URLPrefix + selectedServer + URLSuffix; // generate URL
+    var url = URLPrefix + selectedServer + '.' + URLSuffix; // generate URL
     
     // console.log('AD called with id ' + id + '; data ' + data + '; id ' + uid);
 

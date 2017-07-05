@@ -11,6 +11,7 @@ $sData = $conn->real_escape_string(json_encode($oPOST->data));
 $iID = intval($oPOST->id);
 
 $sQuery = 'INSERT INTO `input_queries` (`advert_id`,`data`) VALUES (' . $iID . ', ' . $sData . ')';
+print($conn->error);
 $qResult = $conn->query($sQuery);
 $idResult = $conn->insert_id;
 
