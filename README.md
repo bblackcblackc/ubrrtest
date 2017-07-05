@@ -4,7 +4,7 @@ ubrr test challenge
 ## Установка
 
 Для установки понадобится docker, docker-compose, git
-Используется TCP порт 8080
+Используется TCP порт 8080. Команды выполнять из корня проекта, если не указано иное.
 
 - Установить docker, docker-compose, git
 - Клонировать репозиторий
@@ -23,3 +23,6 @@ docker-compose exec mariadb bash
 mysql -u root -p _ПАРОЛЬ-БД_
 ```
 - Запустить остальные контейнеры
+```
+docker-compose up
+```
