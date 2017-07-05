@@ -20,7 +20,9 @@ docker-compose up mariadb
 ```
 docker-compose exec mariadb bash
 cd /var/lib/mysql
-mysql -u root -p _ПАРОЛЬ-БД_ < initdb.sql
+mysql -u root -p
+Enter password: ПАРОЛЬ_БД
+MariaDB [none]> source ./initdb.sql
 ```
 - Запустить остальные контейнеры
 ```
